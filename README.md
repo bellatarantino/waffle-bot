@@ -1,6 +1,6 @@
 # Waffle Bot 
 
-<img src="images/banner.png"> 
+<img src="images/waffle_banner.png"> 
 
 <p align="center">
     <b>An all-purpose Discord bot made with <a href="https://discord.js.org/#/">Discord.js</a></b>
