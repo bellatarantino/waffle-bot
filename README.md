@@ -24,11 +24,9 @@ Today, Waffle Bot connects users and brings together online communities.  Read m
 These commands require no special permissions or access. All users that share a server with Waffle Bot can use them. Regular commands should be sent in the server and not in Waffle Bot's DMs. 
 ```
 w!help < command name >
-    if given no argument, lists all 
-    regular Waffle Bot commands
+    if given no argument, lists all regular Waffle Bot commands
 
-    if given a valid command name, lists 
-    information about a specific command
+    if given a valid command name, lists information about a specific command
 
 w!ping
     pings Waffle Bot to check that it is online
@@ -36,20 +34,15 @@ w!ping
 w!user < @user || nickname || user id >
     displays information about the requested user
 
-    should multiple users have the same nickname,
-    whichever appears first in the user list is
-    chosen
+    should multiple users have the same nickname, whichever appears first in the user list is chosen
 
-    if no argument is provided, the default 
-    user is the sender
+    if no argument is provided, the default user is the sender
 
 w!server 
-    displays information about the server the
-    command is sent in 
+    displays information about the server the command is sent in 
 
 w!coin
-    flips a coin for the user. returns heads 
-    or tails.
+    flips a coin for the user. returns heads or tails.
 
 w!roll 
     rolls a 6-sided die. returns an integer 1-6.
@@ -59,26 +52,19 @@ w!roll
 These commands require `MANAGE_SERVER`, `MANAGE_MESSAGES`, `KICK_MEMBERS`, and `BAN_MEMBERS` permissions to use. Moderator commands should be sent in the server and not in Waffle Bot's DMs. 
 ```
 w@help < command name >
-    if given no argument, lists all 
-    Waffle Bot moderator commands
+    if given no argument, lists all Waffle Bot moderator commands
 
-    if given a valid command name, lists 
-    information about a specific command
+    if given a valid command name, lists information about a specific command
 
 w@kick < @user > < message >
-    kicks @user. if there is a second argument,
-    Waffle Bot will attempt to DM the user with 
-    that message before kicking them  
+    kicks @user. if there is a second argument, Waffle Bot will attempt to DM the user with that message before kicking them  
 
 w@ban < @user > < reason > < message >
     bans @user for the requested reason
 
-    if there is no reason provided, will default
-    to "Waffle Bot Ban" 
+    if there is no reason provided, will default to "Waffle Bot Ban" 
 
-    if there is a third argument, Waffle bot
-    will attempt to DM the user with the requested 
-    message before banning them
+    if there is a third argument, Waffle bot will attempt to DM the user with the requested message before banning them
 ```
 
 ### Use Waffle Bot
