@@ -34,7 +34,8 @@ w!ping
 w!user < @user || nickname || user id >
     displays information about the requested user
 
-    should multiple users have the same nickname, whichever appears first in the user list is chosen
+    should multiple users have the same nickname, 
+    whichever appears first in the user list is chosen
 
     if no argument is provided, the default user is the sender
 
@@ -54,17 +55,20 @@ These commands require `MANAGE_SERVER`, `MANAGE_MESSAGES`, `KICK_MEMBERS`, and `
 w@help < command name >
     if given no argument, lists all Waffle Bot moderator commands
 
-    if given a valid command name, lists information about a specific command
+    if given a valid command name, lists information about 
+    a specific command
 
 w@kick < @user > < message >
-    kicks @user. if there is a second argument, Waffle Bot will attempt to DM the user with that message before kicking them  
+    kicks @user. if there is a second argument, Waffle Bot will 
+    attempt to DM the user with that message before kicking them  
 
 w@ban < @user > < reason > < message >
     bans @user for the requested reason
 
     if there is no reason provided, will default to "Waffle Bot Ban" 
 
-    if there is a third argument, Waffle bot will attempt to DM the user with the requested message before banning them
+    if there is a third argument, Waffle bot will attempt 
+    to DM the user with the requested message before banning them
 ```
 
 ### Use Waffle Bot
